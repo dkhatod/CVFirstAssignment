@@ -5,9 +5,6 @@ from std_msgs.msg import String
 
 from ultralytics import YOLO
 
-model = ("yolov8n.pt")
-results = model("https://ultralytics.com/images/bus.jpg")  # predict on an image
-success = model.export(format="onnx")
 
 
 class MinimalPublisher(Node):
@@ -20,6 +17,10 @@ class MinimalPublisher(Node):
         self.i = 0
 
     def timer_callback(self):
+        model = ("yolov8n.pt")
+        results = model("https://ultralytics.com/images/bus.jpg")  # predict on an image
+        success = model.export(format="onnx")
+
         msg = String()
         msg.data = 'Hello World: %d' % self.i
         self.publisher_.publish(msg)
