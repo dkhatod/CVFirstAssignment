@@ -1,0 +1,4 @@
+[console_scripts]
+listener = cvfa.sub:main
+talker = cvfa.pub:main
+

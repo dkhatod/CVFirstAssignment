@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/cvfa/cvfa.egg-info
+writing ../../build/cvfa/cvfa.egg-info/PKG-INFO
+writing dependency_links to ../../build/cvfa/cvfa.egg-info/dependency_links.txt
+writing entry points to ../../build/cvfa/cvfa.egg-info/entry_points.txt
+writing requirements to ../../build/cvfa/cvfa.egg-info/requires.txt
+writing top-level names to ../../build/cvfa/cvfa.egg-info/top_level.txt
+writing manifest file '../../build/cvfa/cvfa.egg-info/SOURCES.txt'
+reading manifest file '../../build/cvfa/cvfa.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/cvfa/cvfa.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/build/cvfa/build
+creating /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/build/cvfa/build/lib
+creating /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/build/cvfa/build/lib/cvfa
+copying cvfa/pub.py -> /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/build/cvfa/build/lib/cvfa
+copying cvfa/sub.py -> /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/build/cvfa/build/lib/cvfa
+copying cvfa/__init__.py -> /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/build/cvfa/build/lib/cvfa
+running install
+running install_lib
+creating /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/install/cvfa/lib/python3.10/site-packages/cvfa
+copying /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/build/cvfa/build/lib/cvfa/pub.py -> /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/install/cvfa/lib/python3.10/site-packages/cvfa
+copying /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/build/cvfa/build/lib/cvfa/sub.py -> /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/install/cvfa/lib/python3.10/site-packages/cvfa
+copying /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/build/cvfa/build/lib/cvfa/__init__.py -> /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/install/cvfa/lib/python3.10/site-packages/cvfa
+byte-compiling /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/install/cvfa/lib/python3.10/site-packages/cvfa/pub.py to pub.cpython-310.pyc
+byte-compiling /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/install/cvfa/lib/python3.10/site-packages/cvfa/sub.py to sub.cpython-310.pyc
+byte-compiling /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/install/cvfa/lib/python3.10/site-packages/cvfa/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/install/cvfa/share/ament_index
+creating /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/install/cvfa/share/ament_index/resource_index
+creating /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/install/cvfa/share/ament_index/resource_index/packages
+copying resource/cvfa -> /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/install/cvfa/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/install/cvfa/share/cvfa
+running install_egg_info
+Copying ../../build/cvfa/cvfa.egg-info to /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/install/cvfa/lib/python3.10/site-packages/cvfa-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/install/cvfa/lib/cvfa
+Installing talker script to /mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/install/cvfa/lib/cvfa
+writing list of installed files to '/mnt/c/Users/mphat/OneDrive/Documents/college/RG_first_assignment/CVFirstAssignment/build/cvfa/install.log'
