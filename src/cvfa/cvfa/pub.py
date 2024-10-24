@@ -19,8 +19,8 @@ class MinimalPublisher(Node):
     def timer_callback(self):
         model = ("yolov8n.pt")
         results = model("https://ultralytics.com/images/bus.jpg")  # predict on an image
-        success = model.export(format="onnx")
-
+        #success = model.export(format="onnx")
+        self.publisher_.publish(results.val())
         msg = String()
         msg.data = 'Hello World: %d' % self.i
         self.publisher_.publish(msg)
