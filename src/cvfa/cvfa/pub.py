@@ -3,6 +3,12 @@ from rclpy.node import Node
 
 from std_msgs.msg import String
 
+from ultralytics import YOLO
+
+model = ("yolov8n.pt")
+results = model("https://ultralytics.com/images/bus.jpg")  # predict on an image
+success = model.export(format="onnx")
+
 
 class MinimalPublisher(Node):
 
